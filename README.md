@@ -3,11 +3,11 @@ About pyafv-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyafv-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/wwang721/pyafv
+Home: https://pyafv.github.io
 
 Package license: MIT
 
-Summary: Python implementation of the active-finite-Voronoi (AFV) model
+Summary: Python implementation of the active-finite-Voronoi (AFV) model.
 
 Development: https://github.com/wwang721/pyafv
 

@@ -1,4 +1,4 @@
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 
 package:
   name: pyafv
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyafv/pyafv-{{ version }}.tar.gz
-  sha256: 35ce6801f8a80ead6487a0363f32a8d02284cd884bc2032261efe5b8cc195281
+  sha256: 043b9d18abca8f2cfa973b88babf333b277de85a24e88cf46ea9ebdd0ae5e794
 
 build:
   skip: true  # [py<310]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   build:
@@ -46,8 +46,8 @@ test:
     - pip
 
 about:
-  home: https://github.com/wwang721/pyafv
-  summary: 'Python implementation of the active-finite-Voronoi (AFV) model'
+  home: https://pyafv.github.io
+  summary: 'Python implementation of the active-finite-Voronoi (AFV) model.'
   description: |
     PyAFV is a Python library for simulating cellular tissues using
     active finite Voronoi (AFV) model. It provides tools for studying

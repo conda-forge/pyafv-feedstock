@@ -11,7 +11,7 @@ source:
 build:
   skip: true  # [py<310]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://pyafv.github.io
-  summary: 'Python implementation of the active-finite-Voronoi (AFV) model.'
+  summary: 'Python implementation of the active finite Voronoi (AFV) model.'
   description: |
     PyAFV is a Python library for simulating cellular tissues using
     active finite Voronoi (AFV) model. It provides tools for studying

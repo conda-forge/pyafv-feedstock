@@ -7,11 +7,11 @@ Home: https://pyafv.github.io
 
 Package license: MIT
 
-Summary: Python implementation of the active-finite-Voronoi (AFV) model.
+Summary: Python implementation of the active finite Voronoi (AFV) model.
 
 Development: https://github.com/wwang721/pyafv
 
-Documentation: https://pyafv.readthedocs.io/
+Documentation: https://pyafv.readthedocs.io
 
 PyAFV is a Python library for simulating cellular tissues using
 active finite Voronoi (AFV) model. It provides tools for studying

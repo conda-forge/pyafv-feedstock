@@ -11,7 +11,7 @@ source:
 build:
   skip: true  # [py<310]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -53,7 +53,7 @@ about:
     active finite Voronoi (AFV) model. It provides tools for studying
     collective cell behavior such as motility, adhesion, jamming, and
     tissue fracture in active matter and biophysical systems.
-  doc_url: https://pyafv.readthedocs.io/
+  doc_url: https://pyafv.readthedocs.io
   dev_url: https://github.com/wwang721/pyafv
   license: MIT
   license_family: MIT

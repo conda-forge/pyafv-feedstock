@@ -1,4 +1,4 @@
-{% set version = "0.4.7" %}
+{% set version = "0.4.8" %}
 
 package:
   name: pyafv
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyafv/pyafv-{{ version }}.tar.gz
-  sha256: 043b9d18abca8f2cfa973b88babf333b277de85a24e88cf46ea9ebdd0ae5e794
+  sha256: 89c99ab288df928e1c880303df449ec3dae123b52cf83ef6e587266f7408e849
 
 build:
   skip: true  # [py<310]

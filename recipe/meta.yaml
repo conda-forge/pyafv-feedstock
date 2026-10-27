@@ -1,17 +1,17 @@
-{% set version = "0.4.16" %}
+{% set version = "0.4.17" %}
 
 package:
   name: pyafv
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pyafv/pyafv-{{ version }}.tar.gz
-  sha256: aa1d26b2042aa80aec6134852af9cb240210615e2f52bd4ab0000486e6eb2c65
+  url: https://files.pythonhosted.org/packages/source/p/pyafv/pyafv-{{ version }}.tar.gz
+  sha256: 12ab6858de4742d3dc096dd29cdb350e798f6160a0c44b3bd9b95973bf883463
 
 build:
   skip: true  # [py<310]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   build:
